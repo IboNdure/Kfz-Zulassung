@@ -27,7 +27,6 @@ const HeaderWrapper = styled.header`
 `;
 
 const Banner = styled.div`
-  position: relative;
   width: 100%;
   height: 250px;
 `;

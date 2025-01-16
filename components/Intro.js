@@ -13,7 +13,7 @@ export default function Intro() {
         <p>"Sicher unterwegs – mit unserem TÜV-Service in besten Händen!"</p>
       </StyledIntro>
       <br></br>
-      <br></br>
+
       <StyledText>
         Wir sorgen dafür, dass Sie sicher und sorgenfrei unterwegs sind. Unser
         erfahrenes Team bietet Ihnen umfassende Dienstleistungen rund um die
@@ -21,7 +21,6 @@ export default function Intro() {
         Abgasuntersuchung oder die Vorbereitung auf den nächsten TÜV-Termin –
         bei uns sind Sie an der richtigen Adresse.
       </StyledText>
-      <br></br>
       <br></br>
       <Styledh4>Warum wir die richtige Wahl sind:</Styledh4>
       <Styledlist>
@@ -32,7 +31,7 @@ export default function Intro() {
   );
 }
 
-const StyledIntro = styled.h3`
+const StyledIntro = styled.h2`
   display: flex;
   padding: 50px;
   justify-content: center;
@@ -48,7 +47,7 @@ const StyledText = styled.h3`
   text-align: center;
 `;
 
-const Styledh4 = styled.h2`
+const Styledh4 = styled.h4`
   display: flex;
   padding: 50px;
   justify-content: center;
@@ -56,7 +55,7 @@ const Styledh4 = styled.h2`
   text-align: center;
 `;
 
-const Styledlist = styled.h3`
+const Styledlist = styled.h5`
   display: flex;
   padding: 50px;
   justify-content: center;
