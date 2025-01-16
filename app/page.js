@@ -1,11 +1,5 @@
-import Header from "@/components/Header";
-import Navbar from "@/components/Navbar";
+import Intro from "@/components/Intro";
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <Navbar />
-    </>
-  );
+  return <Intro />;
 }

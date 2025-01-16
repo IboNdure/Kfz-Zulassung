@@ -22,14 +22,16 @@ export default function Services() {
   ];
 
   return (
-    <ServiceSection>
-      <h1>Unsere Dienstleistungen</h1>
-      <ServiceList>
-        {services.map((service, index) => (
-          <ServiceItem key={index}>{service}</ServiceItem>
-        ))}
-      </ServiceList>
-    </ServiceSection>
+    <>
+      <ServiceSection>
+        <h1>Unsere Dienstleistungen</h1>
+        <ServiceList>
+          {services.map((service, index) => (
+            <ServiceItem key={index}>{service}</ServiceItem>
+          ))}
+        </ServiceList>
+      </ServiceSection>
+    </>
   );
 }
 
