@@ -52,7 +52,7 @@ const MenuItem = styled.li`
     font-weight: bold;
     padding: 0.5rem 1rem;
     display: block;
-    transition: color 0.3s ease, background-color 0.3s ease;
+    transition: color 0.2s ease, background-color 0.1s ease;
 
     &:hover {
       color: #0070f3;
