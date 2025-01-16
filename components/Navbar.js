@@ -24,9 +24,8 @@ export default function Navbar() {
   );
 }
 
-// Styled Components
 const Nav = styled.nav`
-  background-color: #333; /* Dunkler Hintergrund */
+  background-color: #333;
   padding: 0 1rem;
   position: sticky;
   top: 0;
@@ -35,7 +34,7 @@ const Nav = styled.nav`
 
 const Menu = styled.ul`
   display: flex;
-  justify-content: space-evenly; /* Gleichmäßiger Abstand */
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
   margin: 0;
@@ -43,7 +42,7 @@ const Menu = styled.ul`
 `;
 
 const MenuItem = styled.li`
-  flex: 1; /* Jeder Menüpunkt nimmt den gleichen Platz ein */
+  flex: 1;
   text-align: center;
 
   a {
@@ -56,9 +55,9 @@ const MenuItem = styled.li`
     transition: color 0.3s ease, background-color 0.3s ease;
 
     &:hover {
-      color: #0070f3; /* Hover-Farbe */
-      background-color: #444; /* Leichter Hover-Hintergrund */
-      border-radius: 5px; /* Abgerundete Ecken */
+      color: #0070f3;
+      background-color: #444;
+      border-radius: 5px;
     }
   }
 `;
